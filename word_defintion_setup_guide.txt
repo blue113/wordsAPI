@@ -1,0 +1,12 @@
+Follow below steps to run the project
+=====================
+1: Unzip the folder
+2: Create the database named "word_definition"
+3: go to directoty of project and open CMD
+4: Run below commands:
+   composer install
+   php artisan migrate
+   php artisan server
+5: Visit the browser via link created by above command.
+6: once you enter word and submit it will list the defintions if no definition it will display like "no data found"
+7: By clicking on "view previous searches" it will display all words that previously searched.
